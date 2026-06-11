@@ -1,34 +1,314 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renato Antonio Dequcinis | Technology & Digital Systems Specialist</title>
-    <meta name="description" content="Professional portfolio mapping scalable business strategy, automation engineering, and next-generation technical optimization.">
-</head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; background-color: #f9f9f9; color: #333;">
+    <title>Renato Antonio Dequcinis | Enterprise Systems & Digital Acquisition Architect</title>
+    <meta name="description" content="Professional portfolio tracking scalable B2B enterprise strategy, technical SEO/GEO frameworks, autonomous AI engineering, and multi-brand corporate governance.">
     
-    <header>
-        <h1>Renato Antonio Dequcinis</h1>
-        <p><strong>Systems Thinker | Technical Operator | Digital Consultant</strong></p>
-    </header>
-    
-    <hr>
-    
-    <main>
-        <section>
-            <h2>Strategic Capabilities & Business Infrastructure</h2>
-            <p>We build robust digital acquisition pipelines and high-velocity cloud systems designed to move core corporate revenue needles from an engineering standpoint.</p>
-            <ul>
-                <li>Explore our advanced architectural models at <a href="https://barrilgroup.co.za" target="_blank">BaRRiL Group</a>.</li>
-                <li>Deploy data-driven Technical SEO, performance paid pipelines, and autonomous AI system layers with <a href="https://www.doublebarril.com" target="_blank">doubleBaRRiL Digital Marketing Agency</a>.</li>
-            </ul>
-        </section>
-    </main>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
 
-    <footer style="margin-top: 40px; font-size: 0.8em; color: #777;">
-        <p>&copy; 2026. Data structures cached globally via secure static cloud pathways.</p>
-    </footer>
+    <style>
+        :root {
+            --bg-main: #020617;
+            --bg-card: #0b1329;
+            --border-color: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #22d3ee;
+            --accent-blue: #3b82f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 0 24px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 0;
+        }
+
+        /* Header Style */
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 40px;
+            margin-bottom: 50px;
+        }
+
+        .brand-logo {
+            max-width: 320px;
+            height: auto;
+            margin-bottom: 24px;
+            object-contain: fit;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            margin-bottom: 8px;
+            background: linear-gradient(to right, #ffffff, var(--text-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-cyan);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        .lead-text {
+            color: var(--text-secondary);
+            font-size: 1.15rem;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        /* Core Section Grid */
+        h2.section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--accent-cyan);
+            padding-left: 16px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(34, 211, 238, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .card-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Structural Navigation Anchors */
+        .text-link {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            transition: color 0.2s;
+        }
+
+        .text-link:hover {
+            color: var(--accent-blue);
+        }
+
+        .text-link::after {
+            content: " ↗";
+            font-size: 0.8rem;
+        }
+
+        /* Badges for Sub-services */
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .badge {
+            background-color: var(--bg-main);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding-top: 30px;
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        footer a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <img 
+                src="https://www.barrilgroup.co.za/wp-content/uploads/2023/06/Barril-Group-Horizontal-LOGO.png" 
+                alt="BaRRiL Group Corporate Logo" 
+                class="brand-logo"
+            >
+            <h1>Renato Antonio Dequcinis</h1>
+            <div class="subtitle">Systems Architect & Technical Operator</div>
+            <p class="lead-text">
+                Engineering multi-brand corporate solutions, scalable software automation, and next-generation search visibility landscapes across the South African and international business landscape.
+            </p>
+        </header>
+
+        <main>
+            
+            <h2 class="section-title">Core Ventures & Systems Portfolios</h2>
+            
+            <div class="grid">
+                
+                <div class="card">
+                    <h3>Search Visibility & Engine Optimization</h3>
+                    <p>Transitioning corporate web architectures beyond keywords into deep entity alignment, structuring sites for both legacy search systems and next-generation conversational AI neural networks.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/services/search-visibility" class="text-link" target="_blank">Search Visibility Architecture</a>
+                        <a href="https://www.doublebarril.com/services/search-visibility/geo" class="text-link" target="_blank">Generative Engine Optimisation (GEO)</a>
+                        <a href="https://www.doublebarril.com/services/search-visibility/sgeo" class="text-link" target="_blank">Search Generative Experience Optimization (SGEO)</a>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">Traditional SEO</span>
+                        <span class="badge">ChatGPT Optimization</span>
+                        <span class="badge">Link Building</span>
+                        <span class="badge">ASO</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Autonomous AI Systems & Process Engineering</h3>
+                    <p>Deploying specialized worker agents, serverless pipelines, and CRM automated architectures to eliminate friction points and capture multi-channel business pipeline opportunities 24/7.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/services/ai-automation" class="text-link" target="_blank">AI & Automation Services</a>
+                        <a href="https://www.doublebarril.com/services/ai-automation/ai-agents" class="text-link" target="_blank">Autonomous AI Agents Deployment</a>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">CRM Workflows</span>
+                        <span class="badge">AI-CRO Landing Pages</span>
+                        <span class="badge">Conversions API (CAPI)</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Algorithmic Paid Advertising Systems</h3>
+                    <p>Designing high-yield, data-backed conversion frameworks across global ad platforms. Integrating deep server-side measurement matrices to lower CAC and speed up client pipelines.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/services/paid-advertising" class="text-link" target="_blank">Paid Advertising Matrix</a>
+                        <a href="https://www.doublebarril.com/services/paid-advertising/ai-max-google-ads" class="text-link" target="_blank">Performance Max Frameworks</a>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">Google Ads</span>
+                        <span class="badge">Meta Andromeda</span>
+                        <span class="badge">Niche PPC</span>
+                        <span class="badge">Bing Ads</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Technical Web Engineering & Frameworks</h3>
+                    <p>Building lightning-fast, ultra-lightweight web apps using static generation alongside decoupled plugins to keep platform performance clean and highly secure.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/services/web-development" class="text-link" target="_blank">Technical Web Development</a>
+                        <a href="https://www.doublebarril.com/services/web-development/wordpress-maintenance" class="text-link" target="_blank">Enterprise Performance Maintenance</a>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">Astro Framework</span>
+                        <span class="badge">WPCode Snippets</span>
+                        <span class="badge">SQL Scaling</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="section-title">Case Studies & Architectural Proofs</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Enterprise Technical Case Files</h3>
+                    <p>Examine real-world pipeline execution proofs, covering heavy-industry engineering B2B setups, advanced tracking configurations, and multi-channel lead generation frameworks.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/case-studies/roytec-global" class="text-link" target="_blank">Roytec Global Heavy Industry B2B Case</a>
+                        <a href="https://www.doublebarril.com/case-studies/ampd" class="text-link" target="_blank">AMPD Systems Optimization</a>
+                        <a href="https://www.doublebarril.com/case-studies/training-provider-seo-social-media" class="text-link" target="_blank">Institutional SEO Strategy & Scale</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>Technical Knowledge & Technical Documentation</h3>
+                    <p>Review technical step-by-step guides, platform glossaries, and strategy breakdowns covering the evolution of digital search ecosystems into the age of AI.</p>
+                    <div class="card-links">
+                        <a href="https://www.doublebarril.com/blog/what-is-generative-engine-optimisation" class="text-link" target="_blank">Understanding Generative Engine Optimisation</a>
+                        <a href="https://www.doublebarril.com/how-to/setup-meta-conversions-api" class="text-link" target="_blank">Protocol Setup Guide: Meta CAPI</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>
+                Corporate Operations Anchored via <a href="https://barrilgroup.co.za" target="_blank">BaRRiL Group (Pty) Ltd</a> & Managed Digitally through <a href="https://www.doublebarril.com" target="_blank">doubleBaRRiL</a>.
+            </p>
+            <p style="margin-top: 8px; font-size: 0.75rem; color: #475569;">
+                Data Infrastructure Cached via Secure Cloud Networks.
+            </p>
+        </footer>
+
+    </div>
 
 </body>
 </html>
